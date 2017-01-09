@@ -116,5 +116,7 @@
     <File Name="Saba1.bmp"/>
     <File Name="CSH_nn_example_usage.cpp"/>
     <File Name="Saba2.bmp"/>
+    <File Name="utils.h"/>
+    <File Name="readme.txt"/>
   </VirtualDirectory>
 </CodeLite_Project>

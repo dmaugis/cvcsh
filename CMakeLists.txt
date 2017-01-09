@@ -7,7 +7,7 @@ set(ROOT ~)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(CVCSH_SOURCES	CSH_nn_example_usage.cpp)
+set(CVCSH_SOURCES	CSH_nn_example_usage.cpp CSH_nn.cpp )
 	
 include_directories(.)
 include_directories(${OPENCV_INCLUDE_DIRS})
