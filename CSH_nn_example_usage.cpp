@@ -37,12 +37,12 @@ int main(int argc, char** argv)
 	boost::filesystem::path img1("Saba1.bmp");
 	boost::filesystem::path img2("Saba2.bmp");
 
-	Mat	A = imread(img1.string());
+	Mat	A = imread(img1.string(),IMREAD_COLOR);
 	if(A.empty()) {
 		cerr << basename(argv[0]) << ": could not open file or invalid image file  '" << img1 << "'" << endl;
 		exit(-1);
 	}
-	Mat	B = imread(img2.string());
+	Mat	B = imread(img2.string(),IMREAD_COLOR);
 	if(B.empty()) {
 		cerr << basename(argv[0]) << ": could not open file or invalid image file  '" << img2 << "'" << endl;
 		exit(-1);
